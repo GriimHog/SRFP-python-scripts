@@ -1,0 +1,6 @@
+Data/
+Data_2/
+Normal_Data/
+*.o
+--pycache--/
+venvs/
