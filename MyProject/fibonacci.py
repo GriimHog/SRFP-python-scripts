@@ -1,9 +1,0 @@
-nth = 0
-n2th = 1
-n = int(input("enter number : "))
-while n != 0:
-    print(nth, end=" ")
-    t = 0 + n2th
-    n2th = n2th + nth
-    nth = t
-    n -= 1
