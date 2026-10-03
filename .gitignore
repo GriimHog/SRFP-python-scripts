@@ -1,6 +1,10 @@
 Data/
 Data_2/
 Normal_Data/
+1000mW_sample_TPA.csv
+1400mW_sample_TPA.csv
+SphereData.csv
+TPA_f1foldamar_Final.csv
 *.o
 --pycache--/
 venvs/
