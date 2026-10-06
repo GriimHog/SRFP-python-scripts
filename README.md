@@ -44,7 +44,7 @@ Across both, the code does baseline correction, fitting and statistical analysis
 
 *PL spectra at selected temperatures between 6 K and 300 K, produced by `analysis/PL_Experiment.py`.*
 
-## How to run
+<!-- ## How to run
 
 Requires Python 3 with `numpy`, `scipy`, `pandas`, `matplotlib`, `Seaborn`, `statistics` and `os`.
 
@@ -55,7 +55,7 @@ pip install numpy scipy pandas matplotlib
 python analysis/Z-scan_experiment.py
 ```
 
-Each script reads its input from the folder named in the table above. The paths need editing before running.
+Each script reads its input from the folder named in the table above. The paths need editing before running.-->
 
 ## Notes and limitations
 
