@@ -37,8 +37,11 @@ Across both, the code does baseline correction, fitting and statistical analysis
 ## Example output
 
 ![Z-scan fit](Figures/Z-scan.png)
+
 *Open-aperture Z-scan data and fit, produced by `analysis/Z-scan_experiment.py` from `Z_scan_Data/TPA_f1foldamar_Final.csv`.* --
+
 ![PL vs temperature](Figures/PhotolumGraphs/Photolum_Spectra_highTemp.png)
+
 *PL spectra at selected temperatures between 6 K and 300 K, produced by `analysis/PL_Experiment.py`.*
 
 ## How to run
