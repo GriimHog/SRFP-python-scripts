@@ -27,19 +27,19 @@ Across both, the code does baseline correction, fitting and statistical analysis
 
 | Script | What it does | Reads | Produces |
 | ------ | ------------ | ----- | -------- |
-| `Z-scan_experiment.py` | [Fits the Z-scan transmittance curve to obtain the non-linear absorption coefficient] | [`TPA_f1foldamar_Final.csv`, `1000mW_sample_TPA.csv`, `1400mW_sample_TPA.csv`] | [fit and plot] |
-| `PL_Experiment.py` | [Plots Intensity vs Wavelength for the photoluminescence sample at multiple power levels] | [`data/...`] | [plots] |
-| `PL_Experiment2.py` | [Same analysis for the second data set but constant power] | [`Data_2/...`] | [plots] |
-| `PL_Experiment_cont.py`, `PL_Experiment2_cont.py` | [Plots the peak intensity vs temp and also the same but averaged over power in case of experiment 1] | [`Data/...`,`Data_2/...`] | [plots] |
-| `PL_Experiment_csv_gen.py`, `PL_Experiment2_csv_gen.py` | [Converts raw instrument output to CSV] | [`Data/...`,`Data_2/...`] | [`Data/...`,`Data_2/...`] |
-| `normal.py`| [Generates normal distribution with same mean and standard deviation as the photoluminescence data of experiment 2] | [`Data_2/...`] | [`Normal Data/`] |
+| `Z-scan_experiment.py` | Fits the Z-scan transmittance curve to obtain the non-linear absorption coefficient | `TPA_f1foldamar_Final.csv`, `1000mW_sample_TPA.csv`, `1400mW_sample_TPA.csv` | fit and plot |
+| `PL_Experiment.py` | Plots Intensity vs Wavelength for the photoluminescence sample at multiple power levels | `data/...` | plots |
+| `PL_Experiment2.py` | Same analysis for the second data set but constant power | `Data_2/...` | plots |
+| `PL_Experiment_cont.py`, `PL_Experiment2_cont.py` | Plots the peak intensity vs temp and also the same but averaged over power in case of experiment 1 | `Data/...`,`Data_2/...` | plots |
+| `PL_Experiment_csv_gen.py`, `PL_Experiment2_csv_gen.py` | Converts raw instrument output to CSV | `Data/...`,`Data_2/...` | `Data/...`,`Data_2/...` |
+| `normal.py`| Generates normal distribution with same mean and standard deviation as the photoluminescence data of experiment 2 | `Data_2/...` | `Normal Data/` |
 
 ## Example output
 
-!-- ![Z-scan fit](Figures/Z-scan.png) --
-!-- *Open-aperture Z-scan data and fit, produced by `analysis/Z-scan_experiment.py` from `Z_scan_Data/TPA_f1foldamar_Final.csv`.* --
-!-- ![PL vs temperature](Figures/PhotolumGraphs/Photolum_Spectra_highTemp.png) --
-!-- *PL spectra at selected temperatures between 6 K and 300 K, produced by `analysis/PL_Experiment.py`.* --
+![Z-scan fit](Figures/Z-scan.png)
+*Open-aperture Z-scan data and fit, produced by `analysis/Z-scan_experiment.py` from `Z_scan_Data/TPA_f1foldamar_Final.csv`.* --
+![PL vs temperature](Figures/PhotolumGraphs/Photolum_Spectra_highTemp.png)
+*PL spectra at selected temperatures between 6 K and 300 K, produced by `analysis/PL_Experiment.py`.*
 
 ## How to run
 
